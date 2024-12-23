@@ -613,7 +613,8 @@ footer{
 
 
 /* responsive */
-@media (max-width: 1200px){
+
+/* @media (max-width: 1200px){
     .hero-text h1{
         font-size: 3.5rem;
     }
@@ -631,9 +632,6 @@ footer{
     .hero-image{
         order: -1;
     }
-    /* .nav-links{
-        display: none;
-    } */
     .skills-content{
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -660,5 +658,77 @@ footer{
 
     .contact-form{
         padding: 2rem;
+    }
+} */
+
+
+/* القاعدة الافتراضية للشاشات الكبيرة */
+body {
+    font-size: 18px;
+}
+
+/* استجابة لشاشات التابلت */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr; /* اجعل العناصر تتكدس فوق بعضها */
+        text-align: center;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .about-text{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* استجابة لشاشات الهواتف */
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .nav-content {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .nav-links a {
+        font-size: 1rem;
+    }
+
+    .project-card {
+        padding: 1rem;
+    }
+
+    .project-card img {
+        height: 200px;
+    }
+
+    .skills-content {
+        grid-template-columns: 1fr; /* اجعل الأقسام فردية */
+    }
+    .about-text{
+        display: flex;
+        flex-direction: column;
     }
 }
