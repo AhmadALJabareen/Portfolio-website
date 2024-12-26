@@ -5,4 +5,5 @@ This is my personal portfolio website, designed to showcase my skills, projects,
 The design is clean and modern, focusing on user experience and responsive layouts that adapt seamlessly across devices. The website features interactive sections that include a detailed about me page, a portfolio section displaying my best projects, and a skills area showcasing the technologies and tools I am proficient in.
 
 
-[my project](https://www.figma.com/design/Lq5SZ0eWisSXLtnzg62o5W/Untitled?node-id=0-1&p=f&t=hg7fH2UOPTsRMIGE-0)
+[my project on Figma](https://www.figma.com/design/Lq5SZ0eWisSXLtnzg62o5W/Untitled?node-id=0-1&p=f&t=hg7fH2UOPTsRMIGE-0)
+[Live URL]()
